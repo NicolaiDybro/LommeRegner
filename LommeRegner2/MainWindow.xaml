@@ -1,0 +1,19 @@
+﻿<Window x:Class="LommeRegner2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LommeRegner2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFDC6363">
+        <Button x:Name="Plus" Content="+" HorizontalAlignment="Left" Margin="224,254,0,0" VerticalAlignment="Top" Click="Plus_Click" Height="49" Width="64" FontSize="40"/>
+        <Button x:Name="Minus" Content=" - " HorizontalAlignment="Left" Margin="304,254,0,0" VerticalAlignment="Top" Click="Minus_Click" RenderTransformOrigin="-1.306,-1.961" Height="49" Width="64" FontSize="40"/>
+        <Button x:Name="Gange" Content=" * " HorizontalAlignment="Left" Margin="385,254,0,0" VerticalAlignment="Top" Click="Gange_Click" Height="49" Width="64" FontSize="40"/>
+        <Button x:Name="Divider" Content=" / " HorizontalAlignment="Left" Margin="462,254,0,0" VerticalAlignment="Top" Click="Divider_Click" Height="49" Width="64" FontSize="25"/>
+        <TextBox x:Name="box1" HorizontalAlignment="Left" Margin="207,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" TextChanged="TextBox_1" Height="45" FontSize="20"/>
+        <TextBox x:Name="box2" HorizontalAlignment="Left" Margin="323,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" TextChanged="TextBox_2" Height="45" FontSize="20"/>
+        <TextBlock x:Name="Textbox1" HorizontalAlignment="Left" Margin="458,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="White" Height="45" Width="102" FontSize="20"/>
+
+    </Grid>
+</Window>
